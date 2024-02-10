@@ -17,9 +17,8 @@
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: space-around;
+     justify-content: space-between;
      padding: 20px;
-
  }
 
  .logo-wit {
@@ -63,6 +62,11 @@
      font-size: 18px;
  }
 
+ #home {
+     font-weight: bold;
+     text-shadow: #F26A6D 2px 3px 2px;
+ }
+
  .hr_container {
      display: flex;
      justify-content: end;
@@ -70,7 +74,7 @@
 
  .hr {
      border-bottom: black 2.5px solid;
-     width: 70%;
+     width: 50%;
      margin-bottom: -35px;
  }
 
@@ -91,8 +95,8 @@
  }
 
  .main-content-img {
-     height: 400px;
-     width: 480px;
+     height: 500px;
+     width: auto;
      object-fit: contain;
  }
 
