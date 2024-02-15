@@ -1,0 +1,98 @@
+-------------------HTML-----------------------
+
+<!--<header class="header-content">
+      <img class="logo-wit" src="/imgs/logo-wit.png" alt="logo-wit" />
+
+      <p class="search-bar">
+        Search here
+        <img id="search-lens" src="/imgs/lupa 1.png" alt="Search lens" />
+      </p>
+      <nav class="header-menu">
+        <a class="header-menu-item" id="home" href="#">Home</a>
+        <a class="header-menu-item" href="inspirations.html">Inspirations</a>
+        <a class="header-menu-item" href="#">Blog</a>
+        <a class="header-menu-item" href="#">About Us</a>
+        <a class="header-menu-item" href="#">Contact</a>
+      </nav>-->
+
+<div class="hr_container">
+      <div class="hr"></div>
+    </div>
+
+
+-------------------------CSS----------------------
+
+.header-content {
+     background-color: var(--pink);
+     /*border-bottom: 2px solid black;*/
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 40px;
+     box-shadow: 0 0.1rem 0.5rem #525252;
+     width: 100%;
+     transition: all 0.5s;
+ }
+
+ .header-content .logo-wit {
+     height: 150px;
+     width: 200px;
+     object-fit: contain;
+     margin-top: -20px;
+     margin-bottom: -42px;
+ }
+
+ .header-content .search-bar {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 50px;
+     padding: 16px;
+     align-items: center;
+     width: 400px;
+     height: 50px;
+     color: var(--beige);
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;
+ }
+
+ #search-lens {
+     height: 30px;
+     width: 30px;
+ }
+
+ .header-content .header-menu {
+     display: flex;
+     align-items: center;
+     gap: 60px;
+     margin-bottom: -160px;
+     transition: all 0.5s;
+ }
+
+ .header-content .header-menu:hover {
+    color: var(--pink);
+ }
+
+ .header-menu-item {
+     color: black;
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+ }
+
+ /*#home {
+     font-weight: bold;
+     text-shadow: var(--pink) 2px 3px 2px;
+ }*/
+
+ .hr_container {
+     display: flex;
+     justify-content: end;
+ }
+
+ .hr {
+     border-bottom: black 2.5px solid;
+     width: 50%;
+     margin-bottom: -35px;
+ }
